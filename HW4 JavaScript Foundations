@@ -1,0 +1,112 @@
+assignment.js
+// Exercise 1
+let newVariable = 10;
+
+if (newVariable === 10) {
+  console.log("The value is 10");
+}
+
+// Exercise 2
+let favoriteColor = `Blue`;
+let testScore = 92.5;
+let isPassing = true;
+
+console.log(favoriteColor);
+console.log(testScore);
+console.log(isPassing);
+
+// Exercise 3
+// This variable keeps track of the current score.
+let currentScore = 95;
+
+console.log(currentScore);
+
+// Exercise 4
+console.log("100" == 100);
+console.log("100" === 100);
+
+// Exercise 5
+let isWeekend = false;
+let schedule;
+
+schedule = isWeekend ? "Day off" : "Work day";
+
+console.log(schedule);
+
+// Exercise 6
+let userAge = 16;
+
+if (userAge >= 18) {
+  console.log("Access Granted");
+} else {
+  console.log("Access Denied");
+}
+
+// Exercise 7
+let hasPermission = true;
+let itemCount = 3;
+
+if (hasPermission && itemCount < 5) {
+  console.log("Ready to process");
+}
+
+// Exercise 8
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+// Exercise 9
+for (let i = 0; i < 10; i++) {
+  if (i === 7) {
+    break;
+  }
+  console.log(i);
+}
+
+// Exercise 10
+let counter = 10;
+
+do {
+  console.log("Running once");
+} while (counter < 5);
+
+// Exercise 11
+function calculateArea(width, height) {
+  return width * height;
+}
+
+let resultArea = calculateArea(5, 10);
+console.log(resultArea);
+
+// Exercise 12
+let fruitList = ["Apple", "Banana"];
+
+fruitList.push("Grape");
+fruitList.shift();
+
+console.log(fruitList.indexOf("Banana"));
+console.log(fruitList);
+
+// Exercise 13
+let originalData = [1, 2, 3, 4];
+let clonedData = originalData.slice();
+
+console.log(originalData);
+console.log(clonedData);
+
+
+// Exercise 14
+function Animal(species, sound) {
+  this.species = species;
+  this.sound = sound;
+}
+
+// Exercise 15
+let dog = new Animal("Canine", "Woof");
+let cat = new Animal("Feline", "Meow");
+
+let animalArray = [dog, cat];
+
+console.log(dog);
+console.log(cat);
+console.log(animalArray);
