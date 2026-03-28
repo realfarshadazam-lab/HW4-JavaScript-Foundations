@@ -94,6 +94,8 @@ let clonedData = originalData.slice();
 console.log(originalData);
 console.log(clonedData);
 
+// slice() makes a shallow copy.
+// If there are objects or nested arrays, both arrays can still reference the same data.
 
 // Exercise 14
 function Animal(species, sound) {
